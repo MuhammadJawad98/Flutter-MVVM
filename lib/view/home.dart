@@ -32,6 +32,7 @@ class _HomePageState extends State<HomePage> {
             return SingleChildScrollView(
               child: StaggeredGrid.count(
                 crossAxisCount: 2,
+
                 mainAxisSpacing: 4,
                 crossAxisSpacing: 4,
                 children: listPictureViewModel.pictures!
