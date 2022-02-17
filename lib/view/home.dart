@@ -38,7 +38,7 @@ class _HomePageState extends State<HomePage> {
                     .map((e) => Container(
                           color: Colors.grey,
                           child: FadeInImage.memoryNetwork(
-                            fit: BoxFit.cover,
+                              fit: BoxFit.cover,
                               placeholder: kTransparentImage,
                               image: e.picSumModel!.downloadUrl!),
                         ))

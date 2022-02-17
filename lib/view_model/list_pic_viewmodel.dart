@@ -1,5 +1,3 @@
-import 'dart:developer';
-
 import 'package:flutter_mvvm/model/picsum_model.dart';
 import 'package:flutter_mvvm/services/services.dart';
 
